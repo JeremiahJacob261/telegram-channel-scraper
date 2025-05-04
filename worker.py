@@ -6,11 +6,11 @@ from telethon import TelegramClient, events
 #this script get the last {scrap_length} messages/media of the channel
 
 # Account credentials
-api_id = 24094295
-api_hash = 'eae419f2edc6cdab00de7e56c58baeae'
+api_id = 0000000   #replace with app's api_id
+api_hash = 'app api_hash' 
 
 # Target channel
-channel_username = '@devgenxtech'  # Change to your channel
+channel_username = '@channel_name'  # Change to your channel
 scrap_length = 10 #the number of messages to get
 
 media_dir = 'downloaded_media'  # Folder for downloaded media
